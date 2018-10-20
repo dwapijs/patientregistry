@@ -1,0 +1,45 @@
+{
+  "name": "patientregistry",
+  "version": "0.0.1",
+  "description": "dwapi.js patient registry",
+  "scripts": {
+    "test": "jest --forceExit --coverage --verbose --detectOpenHandles",
+    "watch-test": "npm run test -- --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwapijs/patientregistry.git"
+  },
+  "keywords": [
+    "dwapi"
+  ],
+  "author": "Koske Kimutai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dwapijs/patientregistry/issues"
+  },
+  "homepage": "https://github.com/dwapijs/patientregistry#readme",
+  "dependencies": {
+    "dwapijs-sharedkernel": "github:dwapijs/sharedkernel",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "reflect-metadata": "^0.1.12",
+    "typeorm": "^0.2.7",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/faker": "^4.1.4",
+    "@types/jest": "^23.3.5",
+    "@types/lodash": "^4.14.117",
+    "@types/node": "^10.11.7",
+    "@types/uuid": "^3.4.4",
+    "chai": "^4.2.0",
+    "faker": "^4.1.0",
+    "jest": "^23.6.0",
+    "sqlite3": "^4.0.2",
+    "ts-jest": "^23.10.4",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.3"
+  }
+}
